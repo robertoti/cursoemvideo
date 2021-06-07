@@ -1,9 +1,6 @@
 import emoji
-
-from emoji use emojize
-
-frase = 'Curso em video python'
-print(frase[9:21:2])
-len(frase)
-print(type(frase))
-
+print(emoji.emojize('Python is :thumbs_up:'))
+print(emoji.emojize('Python is :thumbs_up:', use_aliases=True))
+print(emoji.demojize('Python is 👍'))
+print(emoji.emojize("Python is fun :red_heart:"))
+print(emoji.emojize("Python is fun :red_heart:",variant="emoji_type"))
