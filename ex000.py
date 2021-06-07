@@ -1,3 +1,5 @@
+import emoji
+
 from emoji use emojize
 
 frase = 'Curso em video python'
